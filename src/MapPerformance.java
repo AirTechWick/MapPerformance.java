@@ -40,8 +40,6 @@ public class MapPerformance {
                 "LinkedHashMap: " + showPairs(linkedHashMap, 15) + "\n" +
                 "TreeMap: " + showPairs(treeMap, 15) + "\n"
         );
-
-
     }
 
     // tests how many milliseconds the map gets filled
