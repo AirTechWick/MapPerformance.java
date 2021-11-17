@@ -8,7 +8,6 @@ import java.util.*;
 // This class takes in a text file and reports specific traits about the book, it also tests the performance of different hash maps
 public class MapPerformance {
 
-
     public static void main(String[] args) throws FileNotFoundException {
         File sourceFile = new File("src/frankensteinBook.txt");
         String[] wordsInBook = readFile(sourceFile);
